@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react(), compression({ algorithm: "brotliCompress" })],
 
   build: {
-    outDir: "build",
+    outDir: "dist", // Alterado para dist
     assetsInlineLimit: 4096,
     minify: "terser",
   },
