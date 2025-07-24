@@ -1,12 +1,25 @@
-# React + Vite
+# 🧠 React Gemini Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um clone básico da interface de interação com o Gemini AI (modelo da Google), construído com **React + Vite**, utilizando a API oficial da Google.
 
-Currently, two official plugins are available:
+> ⚠️ Atenção: Como a biblioteca `@google/genai` **não pode ser usada diretamente no navegador**, este projeto simula a integração com a API, mas para uso real, recomenda-se um backend seguro.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Funcionalidades
 
-## Expanding the ESLint configuration
+- Envia perguntas para o Gemini via API
+- Interface simples e responsiva
+- Gerenciamento de estado com React Context
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Tecnologias
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Google GenAI SDK](https://www.npmjs.com/package/@google/genai)
+
+## 🚀 Instalação
+
+1. **Clone o repositório**
+
+```bash
+git clone https://github.com/LucasViniciusBermudes/react-gemini-clone.git
+cd react-gemini-clone
